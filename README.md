@@ -10,7 +10,7 @@ Data sourced from [DataDriven](https://www.drivendata.org/competitions/66/flu-sh
 
 ## Overview
 
-
+ 
 ***
 ## Business Problem
 The mayor of Goat city  is ordering Covid vaccines, and is fully aware that not everyone will choose to get vaccinated. Goat city wants to know how many Covid vaccines they should be ordering. We want to show them that using a survey to predict if a person will get a vaccine is a valid way of estimating how many vaccines to order.
