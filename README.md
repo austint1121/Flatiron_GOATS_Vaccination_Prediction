@@ -50,7 +50,7 @@ For the preproccessing, all of the columns are categorical, however, some of the
 
 ## Conclusions
 (can be used here and/or in final notebook)
-- Our final model was able to predict the number of vaccines used during the 2009 H1N1 epidemic (for the sample provided), with an error that was equivalent to a total dollar cost of ~$21,000. Given the average budget of most local public health departments this is a highly tolerable error in terms of monetary cost. 
+- Our final model was able to predict the number of vaccines used during the 2009 H1N1 epidemic (for the sample provided), with an error that was equivalent to a total dollar cost of ~$21,000.
 
 
 - We now feel, that given the ~80% accuracy of this model, we can confidently in advise Goat City to conduct an updated survey, targeting the same demographic features, but shifting the survey questions regarding vaccines and likelihood of illness to focus on the current COVID-19 epidemic. We then advise Goat City to use the model we have created with the provided H1N1 survey data to now predict the number of COVID-19 vaccines needed.
