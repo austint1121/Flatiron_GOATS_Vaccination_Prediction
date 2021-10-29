@@ -29,12 +29,11 @@ Datadriven's description of the dataset says:
 Full documentation of the dataset can be found on the [CDC website]((https://www.cdc.gov/nchs/nis/data_files_h1n1.htm))
 ***
 
-## Methods
 ### Preproccessing 
 For the preproccessing, all of the columns are categorical, however, some of them are numerical, and some of them are strings. We will want to handle these these columns differently when imputing missing values.
 
 - **Numerical Categories**
-    - Use Sklearn's Iterative Imputer to fill in the missing values
+    - Use Sklearn's [Iterative Imputer](https://scikit-learn.org/stable/modules/generated/sklearn.impute.IterativeImputer.html_) to fill in the missing values
 - **String Categories**
     - Fill missing values with a new value: 'unknown'
     - One hot encode the results
@@ -44,12 +43,16 @@ For the preproccessing, all of the columns are categorical, however, some of the
 ***
 
 ### Modeling
+For our final model, we used the [Catboost](https://catboost.ai/en/docs/) algorithm. Our model was able to achieve an 80% accuracy score.
+
+![Final Model Confusion Matrix](https://github.com/austint1121/Flatiron_GOATS_Vaccination_Prediction/blob/Matthew/Images/Final_model_conf_matrix.png)
+
 
 ## Results
 ***
 
 ## Conclusions
-(can be used here and/or in final notebook)
+
 - Our final model was able to predict the number of vaccines used during the 2009 H1N1 epidemic (for the sample provided), with an error that was equivalent to a total dollar cost of ~$21,000.
 
 
