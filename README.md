@@ -78,7 +78,7 @@ For the preprocessing, all of the columns are categorical, however, some of them
 ## Modeling Results
 For our final model, we used the [Catboost](https://catboost.ai/en/docs/) algorithm. Our model was able to achieve an 80% accuracy score.
 
-![Final Model Confusion Matrix](https://github.com/austint1121/Flatiron_GOATS_Vaccination_Prediction/blob/Matthew/Images/Final_model_conf_matrix.png)
+![Final Model Confusion Matrix](https://github.com/austint1121/Flatiron_GOATS_Vaccination_Prediction/blob/main/Images/presentation_matrix.png)
 
 According to our data, Goat city would have needed 5674 doses of the H1N1 vaccine, and would have spent ~$45,932 on vaccine doses.
 
