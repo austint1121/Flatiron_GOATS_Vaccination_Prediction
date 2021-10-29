@@ -59,7 +59,7 @@ Datadriven's description of the dataset says:
 > A better understanding of how these characteristics have been associated with personal vaccination patterns may
 > provide guidance for future public health efforts.
 
-Full documentation of the dataset can be found on the [CDC website]((https://www.cdc.gov/nchs/nis/data_files_h1n1.htm))
+Full documentation of the dataset can be found on the [CDC website](https://www.cdc.gov/nchs/nis/data_files_h1n1.htm)
 ***
 
 ## Preprocessing 
