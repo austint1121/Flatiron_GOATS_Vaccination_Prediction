@@ -1,3 +1,5 @@
+<img src="Images/goat-vaccination.jpg" width="100%" height="100%">
+
 ## Flatiron GOATs Vaccination Prediction
 Data sourced from [DataDriven](https://www.drivendata.org/competitions/66/flu-shot-learning/page/210/)
 
