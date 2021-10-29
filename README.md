@@ -28,8 +28,20 @@ Full documentation of the dataset can be found on the [CDC website]((https://www
 ***
 
 ## Methods
+### Preproccessing 
+For the preproccessing, all of the columns are categorical, however, some of them are numerical, and some of them are strings. We will want to handle these these columns differently when imputing missing values.
+
+- **Numerical Categories**
+    - Use Sklearn's Iterative Imputer to fill in the missing values
+- **String Categories**
+    - Fill missing values with a new value: 'unknown'
+    - One hot encode the results
+- **Categories with more then 10 unique categories**
+  - We will frequency code these instead, so we don't have an overwhelming amount of columns in the dataframe.
 
 ***
+
+### Modeling
 
 ## Results
 ***
