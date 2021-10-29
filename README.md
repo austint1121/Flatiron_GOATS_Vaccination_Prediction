@@ -63,7 +63,7 @@ Full documentation of the dataset can be found on the [CDC website](https://www.
 ***
 
 ## Preprocessing 
-For the preprocessing, all of the columns are categorical, however, some of them are numerical, and some of them are strings. We will want to handle these these columns differently when imputing missing values.
+For the preprocessing, all of the columns are categorical, however, some of them are numerical, and some of them are strings. We will want to handle these columns differently when imputing missing values.
 
 - **Numerical Categories**
     - Use Sklearn's [Iterative Imputer](https://scikit-learn.org/stable/modules/generated/sklearn.impute.IterativeImputer.html_) to fill in the missing values
