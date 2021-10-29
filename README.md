@@ -109,6 +109,9 @@ or our [presentation](https://github.com/austint1121/Flatiron_GOATS_Vaccination_
 ## Repository Structure
 
 ```
+
+├── Images                              <- Folder containing graphs and images from notebooks and presentation
+│   └── ...
 ├── Notebooks                           <- Directory containing individual group members' notebooks
 │   ├── Danielle                  
 │   │   └── ...
@@ -116,11 +119,9 @@ or our [presentation](https://github.com/austint1121/Flatiron_GOATS_Vaccination_
 │   │   └── ...
 │   └── Paul                  
 │       └── ...
-│
-├── Images                              <- Folder containing graphs and images from notebooks and presentation
-│   └── ...
-├── presentation.pdf                    <- PDF version of project presentation
 ├── Final Notebook.ipynb                <- Narrative documentation of project in Jupyter notebook
+├── functions.py                        <- Helper functions for "Final Notebook.ipynb"
+├── presentation.pdf                    <- PDF version of project presentation
 └── README.md                           <- Top-level README 
               
 
