@@ -10,7 +10,7 @@ Data sourced from [DataDriven](https://www.drivendata.org/competitions/66/flu-sh
 - [Hyunwook Paul Shin](https://github.com/hps1795)
 
 
-# Overview
+## Overview
 
 
 The fictional mayor of the fictional city, Goat city, TN,  is ordering Covid vaccines, and is fully aware that not
@@ -20,16 +20,17 @@ They have hired us, the Flatiron GOATS, to assist them with this task.
 National 2009 H1N1 Flu Survey collected to monitor vaccination rates during that campaign. This phone survey asked
 people whether they had received H1N1 vaccines, in conjunction with information they shared about their lives, opinions,
 and behaviors. We want to use this data to create a model that can predict if a person received the H1N1 Vaccine based on
-their responses to the questions in the survey. Then use that model as a proof of concept to suggest a similar survey 
-for H1N1.
+their responses to the questions in the survey. Then advise Goat City to use the model we have created with the
+provided H1N1 survey data to now predict the number of COVID-19 vaccines needed.
 
 
 
 
-- Our model predicted that **Goat city should order 8309** doses of the H1N1 vaccine, and **it would have cost ~$66,472**.
+
+- Our model predicted that **Goat city should order 8309** doses of the H1N1 vaccine, and **it would cost ~$66,472**.
 
 
-- Goat city actually **ordered 5674 doses** of the H1N1 vaccine, and would have spent **~$45,932 on vaccine doses**.
+- Goat city actually **ordered 5674 doses** of the H1N1 vaccine,and spent **~$45,932 on vaccine doses**.
 
 Our model was off by **~2,635 doses, a difference of $20,540**
 
@@ -61,7 +62,7 @@ Datadriven's description of the dataset says:
 Full documentation of the dataset can be found on the [CDC website]((https://www.cdc.gov/nchs/nis/data_files_h1n1.htm))
 ***
 
-### Preprocessing 
+## Preprocessing 
 For the preprocessing, all of the columns are categorical, however, some of them are numerical, and some of them are strings. We will want to handle these these columns differently when imputing missing values.
 
 - **Numerical Categories**
