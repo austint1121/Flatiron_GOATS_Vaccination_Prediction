@@ -29,8 +29,8 @@ Datadriven's description of the dataset says:
 Full documentation of the dataset can be found on the [CDC website]((https://www.cdc.gov/nchs/nis/data_files_h1n1.htm))
 ***
 
-### Preproccessing 
-For the preproccessing, all of the columns are categorical, however, some of them are numerical, and some of them are strings. We will want to handle these these columns differently when imputing missing values.
+### Preprocessing 
+For the preprocessing, all of the columns are categorical, however, some of them are numerical, and some of them are strings. We will want to handle these these columns differently when imputing missing values.
 
 - **Numerical Categories**
     - Use Sklearn's [Iterative Imputer](https://scikit-learn.org/stable/modules/generated/sklearn.impute.IterativeImputer.html_) to fill in the missing values
@@ -42,13 +42,16 @@ For the preproccessing, all of the columns are categorical, however, some of the
 
 ***
 
-### Modeling
+## Modeling Results
 For our final model, we used the [Catboost](https://catboost.ai/en/docs/) algorithm. Our model was able to achieve an 80% accuracy score.
 
 ![Final Model Confusion Matrix](https://github.com/austint1121/Flatiron_GOATS_Vaccination_Prediction/blob/Matthew/Images/Final_model_conf_matrix.png)
 
+According to our data, Goat city would have needed 5674 doses of the H1N1 vaccine, and would have spent ~$45,932 on vaccine doses.
 
-## Results
+If our model predicted that Goat city should order 8309 doses of the H1N1 vaccine, and it would have cost ~$66,472.
+
+
 ***
 
 ## Conclusions
