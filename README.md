@@ -1,6 +1,6 @@
 <img src="Images/goat-vaccination.jpg" width="100%" height="100%">
 
-## Flatiron GOATs Vaccination Prediction
+# Flatiron GOATs Vaccination Prediction
 Data sourced from [DataDriven](https://www.drivendata.org/competitions/66/flu-shot-learning/page/210/)
 
 **Authors**:
@@ -10,12 +10,39 @@ Data sourced from [DataDriven](https://www.drivendata.org/competitions/66/flu-sh
 - [Hyunwook Paul Shin](https://github.com/hps1795)
 
 
-## Overview
+# Overview
 
- 
+
+The fictional mayor of the fictional city, Goat city, TN,  is ordering Covid vaccines, and is fully aware that not
+everyone will choose to get vaccinated. Goat city wants to know how many Covid vaccines they should be ordering.
+They have hired us, the Flatiron GOATS, to assist them with this task.
+
+National 2009 H1N1 Flu Survey collected to monitor vaccination rates during that campaign. This phone survey asked
+people whether they had received H1N1 vaccines, in conjunction with information they shared about their lives, opinions,
+and behaviors. We want to use this data to create a model that can predict if a person received the H1N1 Vaccine based on
+their responses to the questions in the survey. Then use that model as a proof of concept to suggest a similar survey 
+for H1N1.
+
+
+
+
+- Our model predicted that **Goat city should order 8309** doses of the H1N1 vaccine, and **it would have cost ~$66,472**.
+
+
+- Goat city actually **ordered 5674 doses** of the H1N1 vaccine, and would have spent **~$45,932 on vaccine doses**.
+
+Our model was off by **~2,635 doses, a difference of $20,540**
+
+Given the ~80% accuracy of this model, we can confidently advise Goat City to conduct an updated
+survey, targeting the same demographic features, but shifting the survey questions regarding vaccines and likelihood of
+illness to focus on the current COVID-19 epidemic. We then advise Goat City to use the model we have created with the
+provided H1N1 survey data to now predict the number of COVID-19 vaccines needed.
+
 ***
 ## Business Problem
-The mayor of Goat city  is ordering Covid vaccines, and is fully aware that not everyone will choose to get vaccinated. Goat city wants to know how many Covid vaccines they should be ordering. We want to show them that using a survey to predict if a person will get a vaccine is a valid way of estimating how many vaccines to order.
+The mayor of Goat city  is ordering Covid vaccines, and is fully aware that not everyone will choose to get vaccinated.
+Goat city wants to know how many Covid vaccines they should be ordering. We want to show them that using a survey to
+predict if a person will get a vaccine is a valid way of estimating how many vaccines to order.
 
 ***
 
@@ -24,7 +51,12 @@ The mayor of Goat city  is ordering Covid vaccines, and is fully aware that not 
 
 Datadriven's description of the dataset says:
 
->Vaccines for H1N1 were first publicly available in the United States in October 2009, when the United States government began a vaccination campaign. We will look at data from the National 2009 H1N1 Flu Survey collected to monitor vaccination rates during that campaign. This phone survey asked people whether they had received H1N1 and seasonal flu vaccines, in conjunction with information they shared about their lives, opinions, and behaviors. A better understanding of how these characteristics have been associated with personal vaccination patterns may provide guidance for future public health efforts.
+>Vaccines for H1N1 were first publicly available in the United States in October 2009, when the United States government
+> began a vaccination campaign. We will look at data from the National 2009 H1N1 Flu Survey collected to monitor
+> vaccination rates during that campaign. This phone survey asked people whether they had received H1N1 and seasonal flu
+> vaccines, in conjunction with information they shared about their lives, opinions, and behaviors.
+> A better understanding of how these characteristics have been associated with personal vaccination patterns may
+> provide guidance for future public health efforts.
 
 Full documentation of the dataset can be found on the [CDC website]((https://www.cdc.gov/nchs/nis/data_files_h1n1.htm))
 ***
@@ -56,10 +88,14 @@ If our model predicted that Goat city should order 8309 doses of the H1N1 vaccin
 
 ## Conclusions
 
-- Our final model was able to predict the number of vaccines used during the 2009 H1N1 epidemic (for the sample provided), with an error that was equivalent to a total dollar cost of ~$21,000.
+- Our final model was able to predict the number of vaccines used during the 2009 H1N1 epidemic
+(for the sample provided), with an error that was equivalent to a total dollar cost of ~$21,000.
 
 
-- We now feel, that given the ~80% accuracy of this model, we can confidently in advise Goat City to conduct an updated survey, targeting the same demographic features, but shifting the survey questions regarding vaccines and likelihood of illness to focus on the current COVID-19 epidemic. We then advise Goat City to use the model we have created with the provided H1N1 survey data to now predict the number of COVID-19 vaccines needed.
+- We now feel, that given the ~80% accuracy of this model, we can confidently in advise Goat City to conduct an updated
+survey, targeting the same demographic features, but shifting the survey questions regarding vaccines and likelihood of
+illness to focus on the current COVID-19 epidemic. We then advise Goat City to use the model we have created with the
+provided H1N1 survey data to now predict the number of COVID-19 vaccines needed.
 
 
 ***
